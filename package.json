@@ -2,16 +2,19 @@
   "name": "project-a",
   "version": "1.0.0",
   "description": "Project to run other files",
-  "private" : true,
-  "mode" : "development",
+  "private": true,
+  "mode": "development",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "webpack"
+    "build": "webpack"
   },
   "author": "Gary",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^5.60.0",
     "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
